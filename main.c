@@ -2,7 +2,7 @@
 #include "math_library.h"
 
 int main(){
-  int result = sum(1, 2);
-  printf("Hello World: %d\n", result);
+  double result = divide(1, 2);
+  printf("Hello World: %.2f\n", result);
   return 0;
 }
